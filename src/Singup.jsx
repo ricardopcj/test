@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.png";
+import "./App.css";
 
-function App() {
+function SingUp() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <br />
+        <form>
+          <input type="text" placeholder="E-Mail" name="name" />
+          <input type="submit" value="Redefinir" />
+        </form>
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Login
         </a>
       </header>
     </div>
   );
 }
 
-export default App;
+export default SingUp;
