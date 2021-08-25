@@ -11,7 +11,7 @@ function App() {
         <form>
           <input type="text" placeholder="E-Mail" name="name" />
           <input type="password" placeholder="Senha" name="pass" />
-          <button className="btn">Logar</button>
+          <button className="btn">Login</button>
         </form>
         <hr />
         <div className="Foot">
